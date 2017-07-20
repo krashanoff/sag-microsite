@@ -1,0 +1,24 @@
+.aboutpanel {
+    position: relative;
+    display: block;
+    left: 20vw;
+    width: 58vw;
+    padding: 1vw;
+    height: auto;
+    word-wrap: break-word;
+    background: #FAFAFA;
+    box-shadow: var(--box-shadow-4);
+}
+
+.aboutpanel > h3 {
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.aboutbullets {
+    padding: 2vw;
+}
+
+.aboutbullets > li > strong {
+    display: block;
+}

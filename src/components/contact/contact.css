@@ -1,0 +1,30 @@
+.contact {
+    position: relative;
+    width: 60vw;
+    height: 40vh;
+    left: 20vw;
+    margin: 0 0 15vh;
+    background: var(--schulty-green);
+    box-shadow: var(--box-shadow-4);
+    color: #FAFAFA;
+}
+
+.contactimg {
+    position: absolute;
+    height: 40vh;
+}
+
+.contactname {
+    position: relative;
+    display: block;
+    left: 45vh;
+    font-size: 4em;
+}
+
+.contactinfo {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 45vh;
+    display: inline;
+}

@@ -1,6 +1,25 @@
 .lockpanel {
-    background: #8ec9b4;
+    position: relative;
+    display: block;
+    background: var(--schulty-green);
     color: white;
-    height: 20vh;
-    width: 10vw;
+    height: 55vh;
+    width: 40vh;
+    margin: 2vw;
+    box-shadow:var(--box-shadow-4);
+    flex-grow: 1;
+}
+
+.lockimage {
+    position: relative;
+    width: 40vh;
+    height: auto;
+}
+
+.locktitle {
+    position: relative;
+    float: left;
+    margin-top: 0;
+    margin-left: 1vh;
+    font-size: 4vh;
 }
