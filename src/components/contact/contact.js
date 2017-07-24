@@ -5,16 +5,12 @@ class Contact extends Component {
     render() {
         return(
             <div className="contact">
-                <img className="contactimg" src={this.props.imgsrc} />
-                <p className="contactname">Leo Krashanoff</p>
-                <ul className="contactinfo">
-                    <li id="phone">
-                        Phone number
-                    </li>
-                    <li id="email">
-                        email
-                    </li>
-                </ul>
+                <img className="contactimg" src={this.props.imgsrc} alt="Leo Krashanoff" />
+                <div id="contactinfo">
+                    <p className="contactname">Leo Krashanoff</p>
+                    <p id="phone">Phone Number</p>
+                    <a id="email" href="mailto:leokrashanoff@en.sag-schlagbaum.com">leokrashanoff@en.sag-schlagbaum.com</a>
+                </div>
             </div>
         );
     }

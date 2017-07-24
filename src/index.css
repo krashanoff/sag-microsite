@@ -17,7 +17,8 @@ body {
 }
 
 #root {
-  margin-top: 10vh;
+  margin: 8vh 0;
+  padding: 0;
 }
 
 #locks {

@@ -3,28 +3,39 @@
     width: 60vw;
     height: 40vh;
     left: 20vw;
-    margin: 0 0 15vh;
+    margin: 4vh 0 15vh;
     background: var(--schulty-green);
     box-shadow: var(--box-shadow-4);
     color: #FAFAFA;
 }
 
 .contactimg {
-    position: absolute;
+    position: relative;
     height: 40vh;
+    display: inline-block;
+}
+
+#contactinfo {
+    position: absolute;
+    display: inline-block;
+    height: 40vh;
+    margin-top: 7vh;
+    margin-left: 2vw;
 }
 
 .contactname {
     position: relative;
     display: block;
-    left: 45vh;
     font-size: 4em;
+    margin: 0;
 }
 
-.contactinfo {
-    position: relative;
-    width: auto;
-    height: auto;
-    left: 45vh;
-    display: inline;
+#phone, #email {
+    font-size: 2em;
+}
+
+#email {
+    color: #FAFAFA;
+    margin: 0;
+    padding: 0;
 }
