@@ -15,6 +15,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: #EFEFEF;
   transition: all 0.4s ease-in;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
 }
 
 a, a:hover, a:visited, a:link, a:active, a:focus {
@@ -39,11 +42,44 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
   justify-content: center;
 }
 
-
 @media only screen and (max-device-width: 900px) {
+  .logo, .logo:hover, .logo:active, .logo:visited {
+    font-size: 0.5vh;
+  }
+
+  .links {
+    display: none;
+  }
+
   #locks {
     flex-direction: column;
-    /* TODO: Truly center container and its items */
-    left: 13vw;
+    left: 18vw;
+  }
+
+  .aboutpanel {
+    left: 10vw !important;
+    width: 78vw !important;
+  }
+
+  .aboutbullets {
+    list-style: none;
+  }
+
+  .contact {
+    left: 10vw !important;
+    width: 80vw !important;
+  }
+
+  .contactname {
+    font-size: 4vh !important;
+    font-weight: 600;
+  }
+
+  #phone {
+    margin: 1vh 0 0;
+  }
+
+  #email {
+    margin: 0;
   }
 }

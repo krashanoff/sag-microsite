@@ -30,7 +30,7 @@
 
 .links {
     position: relative;
-    width: 65vw;
+    width: 45vw;
     height: 4vh;
     float: right;
     text-align: right;
@@ -49,13 +49,4 @@
 
 .navlink:hover {
     box-shadow: var(--box-shadow-1);
-}
-
-@media only screen and (max-device-width: 900px) {
-    .logo, .logo:hover, .logo:visited, .logo:link {
-        font-size: 3.5vh;
-    }
-    .links {
-        display: none;
-    }
 }
