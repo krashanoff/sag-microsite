@@ -1,17 +1,22 @@
 .contact {
     position: relative;
     width: 60vw;
-    height: 40vh;
+    height: 20vh;
     left: 20vw;
     margin: 4vh 0 15vh;
-    background: var(--schulty-green);
-    box-shadow: var(--box-shadow-4);
+    background: var(--schulte-green);
+    box-shadow: var(--box-shadow-2);
     color: #FAFAFA;
+    transition: var(--def-transition);
+}
+
+.contact:hover {
+    box-shadow: var(--box-shadow-4);
 }
 
 .contactimg {
     position: relative;
-    height: 40vh;
+    height: 20vh;
     display: inline-block;
 }
 
@@ -19,19 +24,18 @@
     position: absolute;
     display: inline-block;
     height: 40vh;
-    margin-top: 7vh;
     margin-left: 2vw;
 }
 
 .contactname {
     position: relative;
     display: block;
-    font-size: 4em;
+    font-size: 5vh;
     margin: 0;
 }
 
 #phone, #email {
-    font-size: 2em;
+    font-size: 2.5vh;
 }
 
 #email {

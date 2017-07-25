@@ -5,11 +5,13 @@ class Lock extends Component {
     render() {
         return(
             <div className="lockpanel">
-                <img src={this.props.imgsrc} className="lockimage" alt="lock" />
+                <a href={this.props.url}>
+                    <img src={this.props.imgsrc} className="lockimage" alt="lock" />
+                </a>
                 <h3 className="locktitle">{this.props.name}</h3>
             </div>
         );
-    }
+    };
 };
 
 export default Lock;

@@ -6,12 +6,12 @@ class Nav extends Component {
         return(
             <div className="navbar">
                 <img className="navlogo" src="./favicon.png" />
-                <a className="logo" href='http://en.sag-schlagbaum.com'>Schulty-Schlagbaum AG</a>
-                <div className="navlinks">
-                    <a href='http://google.com'>Custom</a>
-                    <a href='http://youtube.com'>Links</a>
-                    <a href='http://youtube.com'>Go</a>
-                    <a href='http://youtube.com'>Here</a>
+                <a className="logo" href='http://en.sag-schlagbaum.com'>Schulte-Schlagbaum AG</a>
+                <div className="links">
+                    <a className="navlink" href='http://en.sag-schlagbaum.com/home/us/'>Full Site</a>
+                    <a className="navlink" href='http://youtube.com'>Links</a>
+                    <a className="navlink" href='http://youtube.com'>Go</a>
+                    <a className="navlink" href='http://youtube.com'>Here</a>
                 </div>
             </div>
         );

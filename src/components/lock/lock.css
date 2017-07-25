@@ -1,13 +1,18 @@
 .lockpanel {
     position: relative;
     display: block;
-    background: var(--schulty-green);
+    background: var(--schulte-green);
     color: white;
     height: 55vh;
     width: 40vh;
     margin: 2vw;
-    box-shadow:var(--box-shadow-4);
+    box-shadow:var(--box-shadow-2);
     flex-grow: 1;
+    transition: var(--def-transition);
+}
+
+.lockpanel:hover {
+    box-shadow:var(--box-shadow-4);
 }
 
 .lockimage {

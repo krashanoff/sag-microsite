@@ -6,7 +6,7 @@ class About extends Component {
         // Soft wrap in editor is recommended for viewing the following as per the amount of text on one line below
         return(
             <div className="aboutpanel">
-                <h3 className="aboutcap">Electronic cabinet locking systems for comfortable system control</h3>
+                <h3 className="aboutcap">Electronic cabinet locking systems for convenient system control</h3>
                 
                 <p className="aboutbody">
                     SAFE-O-TRONIC® access sets new standards worldwide for securing and organising cabinets, valuables compartments, and functional furniture. PIN code and RFID technology are uniquely combined. Perfectly coordinated: the corresponding product line for room doors. Whether it’s changing room lockers, deposit boxes, office or other storage furniture, SAFE-O-TRONIC® access replaces mechanical locks with electronic locking convenience, making complex key management a thing of the past. Discover the numerous organisational advantages for your field of application – including time and cost savings. The appealing design fits in perfectly with your style of furnishing.

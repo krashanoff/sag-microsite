@@ -7,6 +7,11 @@
     height: auto;
     word-wrap: break-word;
     background: #FAFAFA;
+    box-shadow: var(--box-shadow-2);
+    transition: var(--def-transition);
+}
+
+.aboutpanel:hover {
     box-shadow: var(--box-shadow-4);
 }
 

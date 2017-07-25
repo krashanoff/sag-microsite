@@ -8,8 +8,8 @@ class Contact extends Component {
                 <img className="contactimg" src={this.props.imgsrc} alt="Leo Krashanoff" />
                 <div id="contactinfo">
                     <p className="contactname">Leo Krashanoff</p>
-                    <p id="phone">Phone Number</p>
-                    <a id="email" href="mailto:leokrashanoff@en.sag-schlagbaum.com">leokrashanoff@en.sag-schlagbaum.com</a>
+                    <p id="phone">+1(415)-870-9651</p>
+                    <a id="email" href="mailto:leo.krashanoff@sag-northamerica.com">leo.krashanoff@sag-northamerica.com</a>
                 </div>
             </div>
         );
