@@ -50,3 +50,12 @@
 .navlink:hover {
     box-shadow: var(--box-shadow-1);
 }
+
+@media only screen and (max-device-width: 900px) {
+    .logo, .logo:hover, .logo:visited, .logo:link {
+        font-size: 3.5vh;
+    }
+    .links {
+        display: none;
+    }
+}

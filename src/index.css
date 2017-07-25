@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 :root {
   --schulte-green: #8ec9b4;
@@ -38,4 +37,13 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
   flex-direction: row;
   flex-basis: content;
   justify-content: center;
+}
+
+
+@media only screen and (max-device-width: 900px) {
+  #locks {
+    flex-direction: column;
+    /* TODO: Truly center container and its items */
+    left: 13vw;
+  }
 }
