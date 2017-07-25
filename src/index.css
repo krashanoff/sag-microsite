@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 :root {
-  --schulte-green: #8ec9b4;
+  --schulte-green: #8EC9B4;
   --schulte-compliment: #Bec9b4;
+  --schulte-dark: #339966;
   --box-shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   --box-shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 4px 4px rgba(0,0,0,0.2);
   --box-shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -44,7 +45,9 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
 
 @media only screen and (max-device-width: 900px) {
   .logo, .logo:hover, .logo:active, .logo:visited {
-    font-size: 0.5vh;
+    margin-left: 2vh !important;
+    bottom: 2vh !important;
+    font-size: 3vh !important;
   }
 
   .links {
@@ -76,10 +79,10 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
   }
 
   #phone {
-    margin: 1vh 0 0;
+    margin: 0.75vh 0 0 !important;
   }
 
   #email {
-    margin: 0;
+    margin: 0 !important;
   }
 }
