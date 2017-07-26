@@ -45,9 +45,8 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
 
 @media only screen and (max-device-width: 900px) {
   .logo, .logo:hover, .logo:active, .logo:visited {
-    margin-left: 2vh !important;
-    bottom: 2vh !important;
-    font-size: 3vh !important;
+    bottom: 2.5vh !important;
+    font-size: 2.85vh !important;
   }
 
   .links {
