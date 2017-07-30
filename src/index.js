@@ -14,4 +14,4 @@ ReactDOM.render(<About />, document.getElementById('about'));
 ReactDOM.render(<Contact imgsrc='./images/leo.jpg' />, document.getElementById('contact'));
 
 // Register service worker for offline caching
-registerServiceWorker();
+//registerServiceWorker();

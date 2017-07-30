@@ -50,3 +50,19 @@
 .navlink:hover {
     box-shadow: var(--box-shadow-1);
 }
+
+.iconlink {
+    text-decoration: none;
+    color: #161b1d;
+    margin-left: 2vw;
+    text-align: center;
+}
+
+#yt {
+    position: relative;
+    text-decoration: none;
+    height: 4vh;
+    border: none;
+    padding: 0;
+    top: 0.5vh;
+}

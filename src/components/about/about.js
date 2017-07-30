@@ -38,7 +38,7 @@ class About extends Component {
                         </p>
                     </li>
                     <li>
-                        <strong>Protection against unwanted reservation</strong>
+                        <strong>Protect against unwanted entry</strong>
                         <p>
                             You can optimise your cabinet capacities using automated opening or locking or sanctioning during timeouts.
                         </p>
