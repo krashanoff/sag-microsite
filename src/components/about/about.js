@@ -20,7 +20,7 @@ class About extends Component {
                         </p>
                     </li>
                     <li>
-                        <strong>Comfortable to operate</strong>
+                        <strong>Convenient to operate</strong>
                         <p>
                             Simply lightly touch the key fields to input your personal PIN code (capacitive technology). RFID data carriers are simply held in front of the reading field for identification.
                         </p>
