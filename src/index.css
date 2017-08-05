@@ -43,19 +43,26 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
   justify-content: center;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 800px) {
+  .navbar {
+    height: 18vh !important;
+  }
+
   .logo, .logo:hover, .logo:active, .logo:visited {
     bottom: 2.5vh !important;
-    font-size: 2.85vh !important;
+    font-size: 2.325vh !important;
   }
 
   .links {
-    display: none;
+    display: block;
+    float: none !important;
+    margin-left: 24vw !important;
   }
 
   #locks {
     flex-direction: column;
-    left: 18vw;
+    left: 12.5vw !important;
+    margin-top: 20vh;
   }
 
   .aboutpanel {
@@ -68,13 +75,18 @@ a, a:hover, a:visited, a:link, a:active, a:focus {
   }
 
   .contact {
-    left: 10vw !important;
-    width: 80vw !important;
+    left: 5vw !important;
+    width: 90vw !important;
+    margin-bottom: 20vh;
   }
 
   .contactname {
-    font-size: 4vh !important;
+    font-size: 3.5vh !important;
     font-weight: 600;
+  }
+
+  #phone, #email {
+    font-size: 3vh !important;
   }
 
   #phone {
